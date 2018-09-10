@@ -12,7 +12,7 @@ class FirstQuestion {
         //return n * (n + 1) / 2
         return n * (n + 1) / 2
     }
-    public func finalSum(firstNum: Int, secondNum: Int, upperLimit:Int) -> Int{
+    func answer(firstNum: Int, secondNum: Int, upperLimit:Int) -> Int{
         return firstNum * sumOfN(n: (upperLimit - 1) / firstNum) +
             secondNum * sumOfN(n: (upperLimit - 1) / secondNum) -
             firstNum * secondNum * sumOfN(n: (upperLimit - 1) / (firstNum * secondNum))

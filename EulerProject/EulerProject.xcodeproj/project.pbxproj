@@ -19,6 +19,7 @@
 		AFD75D122144CC46007EF831 /* EulerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFD75D0A2144CC46007EF831 /* EulerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AFD75D162144CF7D007EF831 /* FirstQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD75CF12144C9B4007EF831 /* FirstQuestion.swift */; };
 		AFD75D182144CFC2007EF831 /* SecondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD75D172144CFC2007EF831 /* SecondQuestion.swift */; };
+		AFD75D1921460327007EF831 /* SecondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD75D172144CFC2007EF831 /* SecondQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -314,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD75D162144CF7D007EF831 /* FirstQuestion.swift in Sources */,
+				AFD75D1921460327007EF831 /* SecondQuestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

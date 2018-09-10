@@ -8,7 +8,7 @@ import Foundation
 //Find the sum of all the multiples of 3 or 5 below 1000.
 
 let firstQuestion = FirstQuestion()
-firstQuestion.finalSum(firstNum: 3, secondNum: 5, upperLimit: 1000)
+firstQuestion.answer(firstNum: 3, secondNum: 5, upperLimit: 1000)
 
 //: Question 2:
 /*
@@ -19,34 +19,7 @@ firstQuestion.finalSum(firstNum: 3, secondNum: 5, upperLimit: 1000)
  By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
  
  */
-func fib1(nth: Int) -> Int {
-    if nth == 0 {
-        return 0
-    }
-    if nth == 1  {
-        return 1
-    }
-    if nth == 2 {
-        return 2
-    }
-    return fib1(nth: nth - 1) + fib1(nth: nth - 2)
-    
-}
-Date().timeIntervalSince1970
-fib1(nth: 10)
-Date().timeIntervalSince1970
-
-func fib2(nth:Int) -> Int {
-    var arr: [Int] = []
-    arr.append(1)
-    arr.append(2)
-    for i in 2..<nth {
-        arr.append(arr[i - 1] + arr[i - 2])
-    }
-    return arr.last ?? 0
-}
-Date().timeIntervalSince1970
-fib2(nth: 10)
-Date().timeIntervalSince1970
+let secondQuestion = SecondQuestion()
+secondQuestion.answer(limit: 4000000)
 
 
